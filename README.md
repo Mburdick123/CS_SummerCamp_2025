@@ -22,7 +22,7 @@ Welcome to CS Camp 2025! Please upload your files here as we progress through th
     </style>
   </head>
   <body>
-    <h1>Submit Your Assignment</h1>
+    <h1>Submit Your Work</h1>
     <p>Click the button below to open the submission form.</p>
     <a href="https://forms.gle/QGMXu5kbdQKqm99p6" target="_blank">Go to Submission Form</a>
   </body>
