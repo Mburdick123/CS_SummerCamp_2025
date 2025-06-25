@@ -15,5 +15,11 @@ Welcome to CS Camp 2025! Please upload your files here as we progress through th
     <a href="https://github.com/Mburdick123/CS_SummerCamp_2025/blob/main/rainbowPractice.html" target="_blank">RainbowCSS_Practice</a>
     <br>
     <a href="https://github.com/Mburdick123/CS_SummerCamp_2025/blob/main/HTML_CheatSheet.docx">HTML_CheatSheet</a>
+    <br>
+    <h3>Create Your Own Adventure Files</h3>
+    <a href="https://github.com/Mburdick123/CS_SummerCamp_2025/blob/main/ForestRoad.jpg">StartImage</a>
+    <a href="https://github.com/Mburdick123/CS_SummerCamp_2025/blob/main/KnockedOut.jpg">Option2_Image</a>
+    <a href="https://github.com/Mburdick123/CS_SummerCamp_2025/blob/main/TiredDude.jpg">Option1_Image</a>
+    <a href="https://github.com/Mburdick123/CS_SummerCamp_2025/blob/main/index.html">IndexImage</a>
   </body>
 </html>
