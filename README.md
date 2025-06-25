@@ -3,7 +3,13 @@ Welcome to CS Camp 2025! Please upload your files here as we progress through th
 <!DOCTYPE html>
 <html>
   <head>
-
+<style>
+  a {
+    display: block;
+  }
+  
+</style>
+    
   </head>
   <body>
     <h1>Submit Your Work</h1>
@@ -18,8 +24,11 @@ Welcome to CS Camp 2025! Please upload your files here as we progress through th
     <br>
     <h3>Create Your Own Adventure Files</h3>
     <a href="https://github.com/Mburdick123/CS_SummerCamp_2025/blob/main/ForestRoad.jpg">StartImage</a>
+    <br>
     <a href="https://github.com/Mburdick123/CS_SummerCamp_2025/blob/main/KnockedOut.jpg">Option2_Image</a>
+    <br>
     <a href="https://github.com/Mburdick123/CS_SummerCamp_2025/blob/main/TiredDude.jpg">Option1_Image</a>
+    <br>
     <a href="https://github.com/Mburdick123/CS_SummerCamp_2025/blob/main/index.html">IndexImage</a>
   </body>
 </html>
