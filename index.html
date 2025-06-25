@@ -1,0 +1,81 @@
+<html>
+
+<head>
+    <title>AdventureGame</title>
+    <style>
+        p {
+            font-size: 2em;
+            color: white;
+        }
+
+        body {
+            background-color: black;
+            text-align: center;
+        }
+
+        #button1 {
+            background-color: gray;
+            margin-right: 1em;
+        }
+
+        #button2 {
+            background-color: green;
+        }
+
+        button {
+            border-radius: 1em;
+            font-size: 1.5em;
+        }
+    </style>
+
+</head>
+
+<body>
+    <img id="image" src="ForestRoad.jpg" alt="ForestRoadPic">
+    <br>
+    <p id="text">Hello World!</p>
+    <button id="button1">Button1</button>
+    <button id="button2">Button2</button>
+    <script>
+
+        let image = document.getElementById("image");
+        console.log(image);
+
+        let text = document.getElementById("text");
+        console.log(text);
+
+        let button1 = document.getElementById("button1");
+        let button2 = document.getElementById("button2");
+        console.log(button1);
+        console.log(button2);
+
+        start();
+
+
+        start();
+
+        function start() {
+            text.innerHTML = "You have awoken in a mysterious forest, what choice do you make?"
+            button1.innerHTML = "Keep Walking";
+            button2.innerHTML = "Turn Around";
+
+            button1.addEventListener("click", KeepWalking);
+            button2.addEventListener("click", TurnAround);
+        }
+
+        function KeepWalking() {
+            image.setAttribute("src", "TiredDude.jpg");
+            text.innerHTML = "You are out of shape and forgot to bring your inhaler, you pass out from fatigue";
+            button1.style = "display: none;";
+            button2.style = "display: none;";
+        }
+        function TurnAround() {
+            image.setAttribute("src", "KnockedOut.jpg");
+            text.innerHTML = "You turned around so fast that you hit your head on a tree branch, you're unconscious";
+            button1.style = "display:none;";
+            button2.style = "display:none;";
+        }
+    </script>
+</body>
+
+</html>
